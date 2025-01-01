@@ -1,4 +1,4 @@
-package com.example.animarket.api.user;
+package com.example.animarket.api.auth.user;
 
 import com.example.animarket.api.cart.Cart;
 import jakarta.persistence.*;
