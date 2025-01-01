@@ -1,4 +1,4 @@
-package com.example.animarket.api.product;
+package com.example.animarket.api.product.repository;
 
 
 import com.example.animarket.common.enum_interface.MyEnumInterface;

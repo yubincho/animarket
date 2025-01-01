@@ -1,4 +1,4 @@
-package com.example.animarket.api.product;
+package com.example.animarket.api.product.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

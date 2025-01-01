@@ -1,6 +1,6 @@
-package com.example.animarket.api.auth.user;
+package com.example.animarket.api.auth.user.repository;
 
-import com.example.animarket.api.cart.Cart;
+import com.example.animarket.api.cart.repository.Cart;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -36,7 +36,7 @@ public class User {
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private Cart cart;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Order> orders;
+//    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+//    private List<Order> orders;
 
 }

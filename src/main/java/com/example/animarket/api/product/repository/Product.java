@@ -1,6 +1,6 @@
-package com.example.animarket.api.product;
+package com.example.animarket.api.product.repository;
 
-import com.example.animarket.api.category.Category;
+import com.example.animarket.api.category.repository.Category;
 import jakarta.persistence.*;
 import lombok.*;
 

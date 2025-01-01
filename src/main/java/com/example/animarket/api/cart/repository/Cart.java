@@ -1,7 +1,7 @@
-package com.example.animarket.api.cart;
+package com.example.animarket.api.cart.repository;
 
-import com.example.animarket.api.cartItem.CartItem;
-import com.example.animarket.api.auth.user.User;
+import com.example.animarket.api.cartItem.repository.CartItem;
+import com.example.animarket.api.auth.user.repository.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
